@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 
-contract SacredCowToken is ERC20, ERC20Permit, ERC20Votes {
+contract SacredCowDAOToken is ERC20, ERC20Permit, ERC20Votes {
     constructor() ERC20("SacredCowToken", "SCD") ERC20Permit("SacredCowToken") {}
 
     // The functions below are overrides required by Solidity.
