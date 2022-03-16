@@ -8,9 +8,11 @@ contract SacredCowDAO {
   event SetPurpose(address sender, string purpose);
 
   string public purpose = "Enable Access to the Highest Quality Animal Proteins";
+  string public purpose2 = "Same as the OG purpose";
 
   constructor() payable {
     // what should we do on deploy?
+    setPurpose("High Quality Animal Protein");
   }
   
   function setPurpose(string memory newPurpose) public {
